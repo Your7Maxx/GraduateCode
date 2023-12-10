@@ -1,0 +1,536 @@
+"0" "2023-10-29 15:32:29" "ifconfig" "40729" "bash" "35973" "0" "ifconfig" "系统信息查看操作" 0
+"0" "2023-10-29 15:32:30" "whoami" "40799" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:31" "whoami" "40794" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:32" "whoami" "40791" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:40" "ping" "40730" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:32:47" "ifconfig" "40731" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:32:52" "ping" "40732" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:32:57" "docker" "40734" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:33:03" "docker" "40748" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-29 15:33:03" "runc" "40760" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-29 15:33:03" "exe" "40767" "runc" "40760" "0" "exe init" "系统操作" 0
+"0" "2023-10-29 15:33:03" "bash" "40770" "runc" "40760" "0" "bash" "bash创建操作" 0
+"0" "2023-10-29 15:33:24" "ls" "40776" "bash" "40770" "0" "ls" "查看目录操作" 0
+"0" "2023-10-29 15:33:29" "ls" "40778" "bash" "40770" "0" "ls /usr/src" "查看目录操作" 0
+"0" "2023-10-29 15:33:44" "find" "40779" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-29 15:34:06" "ls" "40782" "bash" "40770" "0" "ls /use/local/springboot-test/""查看目录操作" 0
+"0" "2023-10-29 15:34:07" "sleep" "40783" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:34:27" "anacron" "40785" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"0" "2023-10-29 15:34:30" "java" "40786" "bash" "40770" "0" "java / -name app2.jar" "java应用程序操作" 0
+"0" "2023-10-29 15:34:40" "ls" "40856" "bash" "40770" "0" "ls /usr/src/" "查看目录操作" 0
+"0" "2023-10-29 15:34:47" "find" "40857" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-29 15:35:10" "ifconfig" "40866" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:35:13" "docker" "40867" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:35:15" "ps" "40880" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-29 15:35:16" "ps" "40881" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-29 15:35:30" "git" "40883" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40884" "git" "40883" "0" "git remote-https origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git-remote-http" "40885" "git" "40884" "0" "git-remote-http origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40886" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40888" "git" "40886" "0" "git remote-https origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git-remote-http" "40889" "git" "40888" "0" "git-remote-http origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40891" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40892" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40893" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40894" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40895" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40896" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-29 15:35:51" "git" "40901" "node" "40499" "0" "git rev-parse --show-toplevel" "版本控制操作" 0
+"0" "2023-10-29 15:36:42" "bash" "40909" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:36:42" "whoami" "40913" "bash" "40909" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:36:42" "ping" "40914" "bash" "40909" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-29 15:37:01" "bash" "40917" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:01" "whoami" "40921" "bash" "40917" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:37:01" "ping" "40922" "bash" "40917" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-29 15:37:07" "sleep" "40923" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:37:16" "bash" "40925" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:16" "whoami" "40929" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:37:16" "ping" "40930" "java" "39367" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-29 15:37:23" "bash" "40932" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/5_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:42" "bash" "40939" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/9_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:38:13" "bash" "40946" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/8_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:38:13" "touch" "40946" "java" "39367" "0" "touch /tmp/test" "文件创建操作" 1
+"0" "2023-10-29 15:38:30" "touch" "40951" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:38:31" "touch" "40952" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:38:32" "touch" "40953" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:38:33" "touch" "40954" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:40:07" "sleep" "40958" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-29 15:41:46" "runc" "40999" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process3103622221 --console-socket /tmp/pty3088063033/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/e8a37624a697 a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-29 15:41:46" "exe" "41006" "runc" "40999" "0" "exe init" "系统操作" 0
+"0" "2023-10-29 15:41:46" "bash" "41009" "runc" "40999" "0" "bash" "bash创建操作" 0
+"0" "2023-10-29 15:42:33" "touch" "40960" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:45:16" "whoami" "40988" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:46:16" "whoami" "40989" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:29" "ifconfig" "40729" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:32:30" "whoami" "40799" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:31" "whoami" "40794" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:32" "whoami" "40791" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:32:40" "ping" "40730" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:32:47" "ifconfig" "40731" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:32:52" "ping" "40732" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:32:57" "docker" "40734" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:33:03" "docker" "40748" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-29 15:33:03" "runc" "40760" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-29 15:33:03" "exe" "40767" "runc" "40760" "0" "exe init" "系统操作" 0
+"0" "2023-10-29 15:33:03" "bash" "40770" "runc" "40760" "0" "bash" "bash创建操作" 0
+"0" "2023-10-29 15:33:24" "ls" "40776" "bash" "40770" "0" "ls" "查看目录操作" 0
+"0" "2023-10-29 15:33:29" "ls" "40778" "bash" "40770" "0" "ls /usr/src" "查看目录操作" 0
+"0" "2023-10-29 15:33:44" "find" "40779" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-29 15:34:06" "ls" "40782" "bash" "40770" "0" "ls /use/local/springboot-test/" "查看目录操作" 0
+"0" "2023-10-29 15:34:07" "sleep" "40783" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:34:27" "anacron" "40785" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"0" "2023-10-29 15:34:30" "java" "40786" "bash" "40770" "0" "java / -name app.jar" "java应用程序操作" 0
+"0" "2023-10-29 15:34:40" "ls" "40856" "bash" "40770" "0" "ls /usr/src/" "查看目录操作" 0
+"0" "2023-10-29 15:34:47" "find" "40857" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-29 15:35:10" "ifconfig" "40866" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:35:13" "docker" "40867" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:35:15" "ps" "40880" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-29 15:35:16" "ps" "40881" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-29 15:35:30" "git" "40883" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40884" "git" "40883" "0" "git remote-https origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git-remote-http" "40885" "git" "40884" "0" "git-remote-http origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40886" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git" "40888" "git" "40886" "0" "git remote-https origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:30" "git-remote-http" "40889" "git" "40888" "0" "git-remote-http origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40891" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40892" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40893" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40894" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40895" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-29 15:35:50" "git" "40896" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-29 15:35:51" "git" "40901" "node" "40499" "0" "git rev-parse --show-toplevel" "版本控制操作" 0
+"0" "2023-10-29 15:36:42" "bash" "40909" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:36:42" "whoami" "40913" "bash" "40909" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:36:42" "ping" "40914" "bash" "40909" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 0
+"0" "2023-10-29 15:37:01" "bash" "40917" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:01" "whoami" "40921" "bash" "40917" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:37:01" "ping" "40922" "bash" "40917" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 0
+"0" "2023-10-29 15:37:07" "sleep" "40923" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:37:16" "bash" "40925" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:16" "whoami" "40929" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:37:16" "ping" "4093  0" "java" "39367" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-29 15:37:23" "bash" "40932" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/5_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:37:42" "bash" "40939" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/9_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:38:13" "bash" "40946" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/8_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-29 15:38:30" "touch" "40951" "bash" "35973" "0" "touch /tmp/tes2t" "文件创建操作" 0
+"0" "2023-10-29 15:38:31" "touch" "40952" "bash" "35973" "0" "touch /tmp/test3" "文件创建操作" 0
+"0" "2023-10-29 15:38:32" "touch" "40953" "bash" "35973" "0" "touch /tmp/test4" "文件创建操作" 0
+"0" "2023-10-29 15:38:33" "touch" "40954" "bash" "35973" "0" "touch /tmp/test5" "文件创建操作" 0
+"0" "2023-10-29 15:40:07" "sleep" "40958" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-29 15:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-29 15:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-29 15:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-29 15:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-29 15:41:46" "runc" "40999" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process3103622221 --console-socket /tmp/pty3088063033/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/e8a37624a697 a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-29 15:41:46" "exe" "41006" "runc" "40999" "0" "exe init" "系统操作" 0
+"0" "2023-10-29 15:41:46" "bash" "41009" "runc" "40999" "0" "bash" "bash创建操作" 0
+"0" "2023-10-29 15:42:33" "touch" "40960" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-29 15:45:16" "whoami" "40988" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-29 15:46:16" "whoami" "40989" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 19:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 19:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 19:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 19:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"1000" "2023-10-31 19:29:47" "ps" "112849" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:29:50" "ps" "112853" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:29:53" "ps" "112857" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:29:56" "ps" "112861" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:29:59" "ps" "112865" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:29:59" "ps" "112869" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:29:59" "ps" "112870" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"0" "2023-10-31 19:30:01" "sh" "112874" "cron" "112873" "0" "sh -c [ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi" "计划任务操作" 0
+"1000" "2023-10-31 19:30:02" "ps" "112875" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:05" "ps" "112879" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:06" "find" "112884" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 1 -maxdepth 4 -type f ( -name *.tar -o -name *.bz2 -o -name *.tar.gz -o -name *.zip " "文件查找操作" 0
+"1000" "2023-10-31 19:30:06" "find" "112885" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 3 -maxdepth 3 -type d -empty -delete" "文件查找操作" 0
+"1000" "2023-10-31 19:30:06" "find" "112887" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 2 -maxdepth 2 -type d -empty -delete" "文件查找操作" 0
+"1000" "2023-10-31 19:30:06" "find" "112888" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 1 -maxdepth 1 -type d -empty -delete" "文件查找操作" 0
+"0" "2023-10-31 19:30:07" "sleep" "112891" "bash" "106642" "0" "sleep 180" "系统操作" 0
+"1000" "2023-10-31 19:30:08" "ps" "112892" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:10" "exiftool" "112898" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 0
+"1000" "2023-10-31 19:30:10" "touch" "112899" "exiftool" "112898" "0" "touch /tmp/evil" "文件创建操作" 1
+"1000" "2023-10-31 19:30:11" "ps" "112900" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:14" "ps" "112904" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:14" "ps" "112909" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:30:14" "ps" "112910" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:30:17" "ps" "112911" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:20" "ps" "112915" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:23" "ps" "112919" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:26" "ps" "112923" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:29" "ps" "112927" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:29" "ps" "112931" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:30:29" "ps" "112932" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:30:32" "ps" "112933" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:35" "ps" "112937" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:38" "exiftool" "112941" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:30:38" "ls" "112942" "exiftool" "112941" "0" "ls" "查看目录操作" 0
+"1000" "2023-10-31 19:30:38" "ps" "112943" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:40" "exiftool" "112947" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:30:40" "ls" "112948" "exiftool" "112947" "0" "ls" "查看目录操作" 0
+"1000" "2023-10-31 19:30:41" "ps" "112949" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:43" "exiftool" "112954" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:30:43" "ls" "112955" "exiftool" "112954" "0" "ls -al" "查看目录操作" 0
+"1000" "2023-10-31 19:30:44" "ps" "112957" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:44" "ps" "112961" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:30:44" "ps" "112962" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:30:46" "exiftool" "112964" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:30:46" "ls" "112965" "exiftool" "112964" "0" "ls -alt" "查看目录操作" 0
+"1000" "2023-10-31 19:30:47" "ps" "112966" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:50" "ps" "112970" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:53" "ps" "112974" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:56" "ps" "112978" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:59" "ps" "112982" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:30:59" "ps" "112986" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:30:59" "ps" "112987" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:31:00" "exiftool" "112988" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:31:02" "ps" "112990" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:05" "ps" "112994" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:08" "ps" "112998" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:11" "ps" "113002" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:14" "ps" "113007" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:14" "ps" "113011" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:31:14" "ps" "113012" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:31:17" "ps" "113013" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:20" "ps" "113017" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:21" "exiftool" "113022" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:31:23" "ps" "113024" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:26" "ps" "113028" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:29" "ps" "113032" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:29" "ps" "113036" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:31:29" "ps" "113037" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"0" "2023-10-31 19:31:32" "anacron" "113038" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"1000" "2023-10-31 19:31:32" "ps" "113040" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:35" "ps" "113044" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:38" "ps" "113048" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:41" "ps" "113052" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:44" "ps" "113058" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:44" "ps" "113062" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:31:44" "ps" "113063" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:31:47" "ps" "113064" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:50" "ps" "113068" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:53" "ps" "113072" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:53" "exiftool" "113077" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-10-31 19:31:54" "wget" "113078" "exiftool" "113077" "0" "wget 192.168.0.1/evil" "网络请求操作" 1
+"1000" "2023-10-31 19:31:56" "ps" "113079" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:59" "ps" "113083" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:31:59" "ps" "113087" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:31:59" "ps" "113088" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:32:02" "ps" "113091" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:05" "ps" "113095" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:08" "ps" "113099" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:11" "ps" "113105" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:14" "ps" "113110" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:14" "ps" "113114" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:32:14" "ps" "113115" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"0" "2023-10-31 19:32:15" "docker" "113116" "bash" "109104" "0" "docker ps" "容器操作" 0
+"1000" "2023-10-31 19:32:17" "ps" "113130" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:18" "docker" "113134" "bash" "109104" "0" "docker ps -a" "容器操作" 0
+"1000" "2023-10-31 19:32:20" "ps" "113147" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:21" "ls" "113151" "bash" "109104" "0" "ls --color=auto -al" "查看目录操作" 0
+"1000" "2023-10-31 19:32:23" "ps" "113152" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:26" "ps" "113156" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:29" "docker" "113160" "bash" "109104" "0" "docker exec -it 3b bash" "容器操作" 0
+"0" "2023-10-31 19:32:29" "runc" "113173" "containerd-shim" "111162" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process204946319 --console-socket /tmp/pty2857535068/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d/092f7467d595 3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d" "容器操作" 0
+"0" "2023-10-31 19:32:29" "exe" "113180" "runc" "113173" "0" "exe init" "系统操作" 0
+"0" "2023-10-31 19:32:29" "bash" "113184" "runc" "113173" "0" "bash "bash创建操作" 0
+"0" "2023-10-31 19:32:29" "groups" "113191" "bash" "113190" "0" "groups "用户与组操作" 0
+"1000" "2023-10-31 19:32:29" "ps" "113194" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:29" "ps" "113198" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:32:29" "ps" "113199" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:32:32" "ps" "113200" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:34" "ps" "113204" "bash" "113184" "0" "ps -ef" "进程操作" 0
+"1000" "2023-10-31 19:32:35" "ps" "113205" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:38" "ps" "113209" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:40" "ps" "113213" "bash" "109104" "0" "ps -ef" "进程操作" 0
+"1000" "2023-10-31 19:32:41" "ps" "113214" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:41" "top" "113218" "bash" "109104" "0" "top "进程操作" 0
+"1000" "2023-10-31 19:32:44" "ps" "113220" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:44" "ps" "113224" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:32:44" "ps" "113225" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:32:47" "ps" "113226" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:50" "ps" "113230" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:51" "ps" "113234" "bash" "109104" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-31 19:32:29" "groups" "113192" "bash" "113190" "0" "groups "用户与组操作" 0
+"0" "2023-10-31 19:32:51" "grep" "113235" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"1000" "2023-10-31 19:32:53" "ps" "113236" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-31 19:32:51" "grep" "113238" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"0" "2023-10-31 19:32:51" "grep" "113239" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"0" "2023-10-31 19:32:56" "ls" "113240" "bash" "109104" "0" "ls --color=auto -al" "查看目录操作" 0
+"1000" "2023-10-31 19:32:56" "ps" "113241" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:59" "ps" "113245" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:32:59" "ps" "113249" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-10-31 19:32:59" "ps" "113250" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-10-31 19:33:02" "ps" "113251" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-10-31 19:33:05" "ps" "113255" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-10-30 15:32:29" "ifconfig" "40729" "bash" "35973" "0" "ifconfig" "系统信息查看操作" 0
+"0" "2023-10-30 15:32:30" "whoami" "40799" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:31" "whoami" "40794" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:32" "whoami" "40791" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:40" "ping" "40730" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:32:47" "ifconfig" "40731" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:32:52" "ping" "40732" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:32:57" "docker" "40734" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:33:03" "docker" "40748" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-30 15:33:03" "runc" "40760" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-30 15:33:03" "exe" "40767" "runc" "40760" "0" "exe init" "系统操作" 0
+"0" "2023-10-30 15:33:03" "bash" "40770" "runc" "40760" "0" "bash" "bash创建操作" 0
+"0" "2023-10-30 15:33:24" "ls" "40776" "bash" "40770" "0" "ls" "查看目录操作" 0
+"0" "2023-10-30 15:33:29" "ls" "40778" "bash" "40770" "0" "ls /usr/src" "查看目录操作" 0
+"0" "2023-10-30 15:33:44" "find" "40779" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-30 15:34:06" "ls" "40782" "bash" "40770" "0" "ls /use/local/springboot-test/""查看目录操作" 0
+"0" "2023-10-30 15:34:07" "sleep" "40783" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:34:27" "anacron" "40785" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"0" "2023-10-30 15:34:30" "java" "40786" "bash" "40770" "0" "java / -name app2.jar" "java应用程序操作" 0
+"0" "2023-10-30 15:34:40" "ls" "40856" "bash" "40770" "0" "ls /usr/src/" "查看目录操作" 0
+"0" "2023-10-30 15:34:47" "find" "40857" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-30 15:35:10" "ifconfig" "40866" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:35:13" "docker" "40867" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:35:15" "ps" "40880" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-30 15:35:16" "ps" "40881" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-30 15:35:30" "git" "40883" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40884" "git" "40883" "0" "git remote-https origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git-remote-http" "40885" "git" "40884" "0" "git-remote-http origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40886" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40888" "git" "40886" "0" "git remote-https origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git-remote-http" "40889" "git" "40888" "0" "git-remote-http origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40891" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40892" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40893" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40894" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40895" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40896" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-30 15:35:51" "git" "40901" "node" "40499" "0" "git rev-parse --show-toplevel" "版本控制操作" 0
+"0" "2023-10-30 15:36:42" "bash" "40909" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:36:42" "whoami" "40913" "bash" "40909" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:36:42" "ping" "40914" "bash" "40909" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-30 15:37:01" "bash" "40917" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:01" "whoami" "40921" "bash" "40917" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:37:01" "ping" "40922" "bash" "40917" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-30 15:37:07" "sleep" "40923" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:37:16" "bash" "40925" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:16" "whoami" "40929" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:37:16" "ping" "40930" "java" "39367" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-30 15:37:23" "bash" "40932" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/5_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:42" "bash" "40939" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/9_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:38:13" "bash" "40946" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/8_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:38:13" "touch" "40946" "java" "39367" "0" "touch /tmp/test" "文件创建操作" 1
+"0" "2023-10-30 15:38:30" "touch" "40951" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:38:31" "touch" "40952" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:38:32" "touch" "40953" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:38:33" "touch" "40954" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:40:07" "sleep" "40958" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-30 15:41:46" "runc" "40999" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process3103622221 --console-socket /tmp/pty3088063033/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/e8a37624a697 a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-30 15:41:46" "exe" "41006" "runc" "40999" "0" "exe init" "系统操作" 0
+"0" "2023-10-30 15:41:46" "bash" "41009" "runc" "40999" "0" "bash" "bash创建操作" 0
+"0" "2023-10-30 15:42:33" "touch" "40960" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:45:16" "whoami" "40988" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:46:16" "whoami" "40989" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:29" "ifconfig" "40729" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:32:30" "whoami" "40799" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:31" "whoami" "40794" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:32" "whoami" "40791" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:32:40" "ping" "40730" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:32:47" "ifconfig" "40731" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:32:52" "ping" "40732" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:32:57" "docker" "40734" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:33:03" "docker" "40748" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-30 15:33:03" "runc" "40760" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-30 15:33:03" "exe" "40767" "runc" "40760" "0" "exe init" "系统操作" 0
+"0" "2023-10-30 15:33:03" "bash" "40770" "runc" "40760" "0" "bash" "bash创建操作" 0
+"0" "2023-10-30 15:33:24" "ls" "40776" "bash" "40770" "0" "ls" "查看目录操作" 0
+"0" "2023-10-30 15:33:29" "ls" "40778" "bash" "40770" "0" "ls /usr/src" "查看目录操作" 0
+"0" "2023-10-30 15:33:44" "find" "40779" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-30 15:34:06" "ls" "40782" "bash" "40770" "0" "ls /use/local/springboot-test/" "查看目录操作" 0
+"0" "2023-10-30 15:34:07" "sleep" "40783" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:34:27" "anacron" "40785" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"0" "2023-10-30 15:34:30" "java" "40786" "bash" "40770" "0" "java / -name app.jar" "java应用程序操作" 0
+"0" "2023-10-30 15:34:40" "ls" "40856" "bash" "40770" "0" "ls /usr/src/" "查看目录操作" 0
+"0" "2023-10-30 15:34:47" "find" "40857" "bash" "40770" "0" "find / -name app.jar" "文件查找操作" 0
+"0" "2023-10-30 15:35:10" "ifconfig" "40866" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:35:13" "docker" "40867" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:35:15" "ps" "40880" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-30 15:35:16" "ps" "40881" "bash" "35973" "0" "ps -ef" "进程操作" 0
+"0" "2023-10-30 15:35:30" "git" "40883" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40884" "git" "40883" "0" "git remote-https origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git-remote-http" "40885" "git" "40884" "0" "git-remote-http origin https://github.com/mitre-attack/tram.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40886" "node" "40499" "0" "git fetch" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git" "40888" "git" "40886" "0" "git remote-https origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:30" "git-remote-http" "40889" "git" "40888" "0" "git-remote-http origin https://github.com/vulhub/vulhub.git" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40891" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40892" "node" "40499" "0" "git config --get commit.template" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40893" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40894" "node" "40499" "0" "git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40895" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-30 15:35:50" "git" "40896" "node" "40499" "0" "git status -z -uall" "版本控制操作" 0
+"0" "2023-10-30 15:35:51" "git" "40901" "node" "40499" "0" "git rev-parse --show-toplevel" "版本控制操作" 0
+"0" "2023-10-30 15:36:42" "bash" "40909" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:36:42" "whoami" "40913" "bash" "40909" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:36:42" "ping" "40914" "bash" "40909" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 0
+"0" "2023-10-30 15:37:01" "bash" "40917" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:01" "whoami" "40921" "bash" "40917" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:37:01" "ping" "40922" "bash" "40917" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 0
+"0" "2023-10-30 15:37:07" "sleep" "40923" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:37:16" "bash" "40925" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/4_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:16" "whoami" "40929" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:37:16" "ping" "40930" "java" "39367" "0" "ping root.j1oloq.ceye.io" "网络请求操作" 1
+"0" "2023-10-30 15:37:23" "bash" "40932" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/5_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:37:42" "bash" "40939" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/9_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:38:13" "bash" "40946" "java" "39367" "0" "bash /var/log/xxl-job/gluesource/8_1586699003758.sh demoJobHandler 0 0" "bash创建操作" 1
+"0" "2023-10-30 15:38:30" "touch" "40951" "bash" "35973" "0" "touch /tmp/tes2t" "文件创建操作" 0
+"0" "2023-10-30 15:38:31" "touch" "40952" "bash" "35973" "0" "touch /tmp/test3" "文件创建操作" 0
+"0" "2023-10-30 15:38:32" "touch" "40953" "bash" "35973" "0" "touch /tmp/test4" "文件创建操作" 0
+"0" "2023-10-30 15:38:33" "touch" "40954" "bash" "35973" "0" "touch /tmp/test5" "文件创建操作" 0
+"0" "2023-10-30 15:40:07" "sleep" "40958" "bash" "40389" "0" "sleep 180" "系统操作" 0
+"0" "2023-10-30 15:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 15:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 15:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 15:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"0" "2023-10-30 15:41:46" "runc" "40999" "containerd-shim" "39346" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process3103622221 --console-socket /tmp/pty3088063033/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/e8a37624a697 a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2023-10-30 15:41:46" "exe" "41006" "runc" "40999" "0" "exe init" "系统操作" 0
+"0" "2023-10-30 15:41:46" "bash" "41009" "runc" "40999" "0" "bash" "bash创建操作" 0
+"0" "2023-10-30 15:42:33" "touch" "40960" "bash" "35973" "0" "touch /tmp/test" "文件创建操作" 0
+"0" "2023-10-30 15:45:16" "whoami" "40988" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 15:46:16" "whoami" "40989" "java" "39367" "0" "whoami" "用户信息查看操作" 0
+"0" "2023-10-30 19:41:20" "ifconfig" "40967" "bash" "35973" "0" "ifconfig" "网络信息查看操作" 0
+"0" "2023-10-30 19:41:32" "docker" "40969" "bash" "35973" "0" "docker ps" "容器操作" 0
+"0" "2023-10-30 19:41:41" "ping" "40983" "bash" "35973" "0" "ping baidu.com" "网络请求操作" 0
+"0" "2023-10-30 19:41:46" "docker" "40984" "bash" "35973" "0" "docker exec -it a0 bash" "容器操作" 0
+"1000" "2023-11-01 19:29:47" "ps" "112849" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:29:50" "ps" "112853" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:29:53" "ps" "112857" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:29:56" "ps" "112861" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:29:59" "ps" "112865" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:29:59" "ps" "112869" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:29:59" "ps" "112870" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"0" "2023-11-01 19:30:01" "sh" "112874" "cron" "112873" "0" "sh -c [ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi" "计划任务操作" 0
+"1000" "2023-11-01 19:30:02" "ps" "112875" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:05" "ps" "112879" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:06" "find" "112884" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 1 -maxdepth 4 -type f ( -name *.tar -o -name *.bz2 -o -name *.tar.gz -o -name *.zip " "文件查找操作" 0
+"1000" "2023-11-01 19:30:06" "find" "112885" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 3 -maxdepth 3 -type d -empty -delete" "文件查找操作" 0
+"1000" "2023-11-01 19:30:06" "find" "112887" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 2 -maxdepth 2 -type d -empty -delete" "文件查找操作" 0
+"1000" "2023-11-01 19:30:06" "find" "112888" "ruby2.7" "112368" "0" "find /home/git/data/tmp/downloads -mindepth 1 -maxdepth 1 -type d -empty -delete" "文件查找操作" 0
+"0" "2023-11-01 19:30:07" "sleep" "112891" "bash" "106642" "0" "sleep 180" "系统操作" 0
+"1000" "2023-11-01 19:30:08" "ps" "112892" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:10" "exiftool" "112898" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 0
+"1000" "2023-11-01 19:30:10" "touch" "112899" "exiftool" "112898" "0" "touch /tmp/evil" "文件创建操作" 1
+"1000" "2023-11-01 19:30:11" "ps" "112900" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:14" "ps" "112904" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:14" "ps" "112909" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:30:14" "ps" "112910" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:30:17" "ps" "112911" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:20" "ps" "112915" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:23" "ps" "112919" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:26" "ps" "112923" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:29" "ps" "112927" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:29" "ps" "112931" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:30:29" "ps" "112932" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:30:32" "ps" "112933" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:35" "ps" "112937" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:38" "exiftool" "112941" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:30:38" "ls" "112942" "exiftool" "112941" "0" "ls" "查看目录操作" 0
+"1000" "2023-11-01 19:30:38" "ps" "112943" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:40" "exiftool" "112947" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:30:40" "ls" "112948" "exiftool" "112947" "0" "ls" "查看目录操作" 0
+"1000" "2023-11-01 19:30:41" "ps" "112949" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:43" "exiftool" "112954" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:30:43" "ls" "112955" "exiftool" "112954" "0" "ls -al" "查看目录操作" 0
+"1000" "2023-11-01 19:30:44" "ps" "112957" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:44" "ps" "112961" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:30:44" "ps" "112962" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:30:46" "exiftool" "112964" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:30:46" "ls" "112965" "exiftool" "112964" "0" "ls -alt" "查看目录操作" 0
+"1000" "2023-11-01 19:30:47" "ps" "112966" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:50" "ps" "112970" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:53" "ps" "112974" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:56" "ps" "112978" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:59" "ps" "112982" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:30:59" "ps" "112986" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:30:59" "ps" "112987" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:31:00" "exiftool" "112988" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:31:02" "ps" "112990" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:05" "ps" "112994" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:08" "ps" "112998" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:11" "ps" "113002" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:14" "ps" "113007" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:14" "ps" "113011" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:31:14" "ps" "113012" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:31:17" "ps" "113013" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:20" "ps" "113017" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:21" "exiftool" "113022" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:31:23" "ps" "113024" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:26" "ps" "113028" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:29" "ps" "113032" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:29" "ps" "113036" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:31:29" "ps" "113037" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"0" "2023-11-01 19:31:32" "anacron" "113038" "systemd" "1" "0" "anacron -d -q -s" "计划任务操作" 0
+"1000" "2023-11-01 19:31:32" "ps" "113040" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:35" "ps" "113044" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:38" "ps" "113048" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:41" "ps" "113052" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:44" "ps" "113058" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:44" "ps" "113062" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:31:44" "ps" "113063" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:31:47" "ps" "113064" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:50" "ps" "113068" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:53" "ps" "113072" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:53" "exiftool" "113077" "gitlab-workhors" "112367" "0" "exiftool -all= --IPTC:all --XMP-iptcExt:all -tagsFromFile @ -ResolutionUnit -XResolution -YResolution -YCbCrSubSampling -YCbCrPositioning -BitsPerSample -ImageHeight -ImageWidth -ImageSize -Copyright -CopyrightNotice -Orientation -" "用户程序操作" 1
+"1000" "2023-11-01 19:31:54" "wget" "113078" "exiftool" "113077" "0" "wget 192.168.0.1/evil" "网络请求操作" 1
+"1000" "2023-11-01 19:31:56" "ps" "113079" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:59" "ps" "113083" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:31:59" "ps" "113087" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:31:59" "ps" "113088" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:32:02" "ps" "113091" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:05" "ps" "113095" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:08" "ps" "113099" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:11" "ps" "113105" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:14" "ps" "113110" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:14" "ps" "113114" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:32:14" "ps" "113115" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"0" "2023-11-01 19:32:15" "docker" "113116" "bash" "109104" "0" "docker ps" "容器操作" 0
+"1000" "2023-11-01 19:32:17" "ps" "113130" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:18" "docker" "113134" "bash" "109104" "0" "docker ps -a" "容器操作" 0
+"1000" "2023-11-01 19:32:20" "ps" "113147" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:21" "ls" "113151" "bash" "109104" "0" "ls --color=auto -al" "查看目录操作" 0
+"1000" "2023-11-01 19:32:23" "ps" "113152" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:26" "ps" "113156" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:29" "docker" "113160" "bash" "109104" "0" "docker exec -it 3b bash" "容器操作" 0
+"0" "2023-11-01 19:32:29" "runc" "113173" "containerd-shim" "111162" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process204946319 --console-socket /tmp/pty2857535068/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d/092f7467d595 3b33b1a1b431756f396bd909d3f283d614bf29a5a44bd01ece47b0588bd78d0d" "容器操作" 0
+"0" "2023-11-01 19:32:29" "exe" "113180" "runc" "113173" "0" "exe init" "系统操作" 0
+"0" "2023-11-01 19:32:29" "bash" "113184" "runc" "113173" "0" "bash "bash创建操作" 0
+"0" "2023-11-01 19:32:29" "groups" "113191" "bash" "113190" "0" "groups "用户与组操作" 0
+"1000" "2023-11-01 19:32:29" "ps" "113194" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:29" "ps" "113198" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:32:29" "ps" "113199" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:32:32" "ps" "113200" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:34" "ps" "113204" "bash" "113184" "0" "ps -ef" "进程操作" 0
+"1000" "2023-11-01 19:32:35" "ps" "113205" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:38" "ps" "113209" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:40" "ps" "113213" "bash" "109104" "0" "ps -ef" "进程操作" 0
+"1000" "2023-11-01 19:32:41" "ps" "113214" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:41" "top" "113218" "bash" "109104" "0" "top "进程操作" 0
+"1000" "2023-11-01 19:32:44" "ps" "113220" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:44" "ps" "113224" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:32:44" "ps" "113225" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:32:47" "ps" "113226" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:50" "ps" "113230" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:51" "ps" "113234" "bash" "109104" "0" "ps -ef" "进程操作" 0
+"0" "2023-11-01 19:32:29" "groups" "113192" "bash" "113190" "0" "groups "用户与组操作" 0
+"0" "2023-11-01 19:32:51" "grep" "113235" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"1000" "2023-11-01 19:32:53" "ps" "113236" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"0" "2023-11-01 19:32:51" "grep" "113238" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"0" "2023-11-01 19:32:51" "grep" "113239" "bash" "109104" "0" "grep --color=auto docker" "文本处理操作" 0
+"0" "2023-11-01 19:32:56" "ls" "113240" "bash" "109104" "0" "ls --color=auto -al" "查看目录操作" 0
+"1000" "2023-11-01 19:32:56" "ps" "113241" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:59" "ps" "113245" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:32:59" "ps" "113249" "gitaly" "112365" "0" "ps -o rss= -p 1067" "进程操作" 0
+"1000" "2023-11-01 19:32:59" "ps" "113250" "gitaly" "112365" "0" "ps -o rss= -p 1066" "进程操作" 0
+"1000" "2023-11-01 19:33:02" "ps" "113251" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
+"1000" "2023-11-01 19:33:05" "ps" "113255" "ruby2.7" "112368" "0" "ps -o rss= -p 1006" "进程操作" 0
